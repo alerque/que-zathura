@@ -17,6 +17,15 @@ set adjust-open best-fit
 set smooth-scroll true
 set statusbar-home-tilde true
 set incremental-search true
+map k navigate previous
+map j navigate next
+map <S-k> scroll down
+map w adjust_window best-fit
+map [normal] a focus_inputbar ":bmark "
+map [normal] b focus_inputbar ":blist "
+map [normal] d focus_inputbar ":bdelete "
+map [normal] l jumplist backward
+map [normal] L jumplist forward
 
 set font "Hack 8"
 set default-bg "#151515"
