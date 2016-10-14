@@ -1,0 +1,8 @@
+set zoom-step 5
+set scroll-step 5
+set scroll-hstep 5
+set first-page-column 1:2:1:2:1:2
+set pages-per-row 2
+set page-padding 1
+set advance-pages-per-row true
+set guioptions  ""
