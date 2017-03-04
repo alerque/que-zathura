@@ -26,6 +26,12 @@ map [normal] b focus_inputbar ":blist "
 map [normal] d focus_inputbar ":bdelete "
 map [normal] l jumplist backward
 map [normal] L jumplist forward
+map <C-1> feedkeys ":set pages-per-row 1"<Return>
+map <C-2> feedkeys ":set pages-per-row 2"<Return>
+map <C-3> feedkeys ":set pages-per-row 3"<Return>
+map <C-4> feedkeys ":set pages-per-row 4"<Return>
+map t toggle_page_mode
+map T feedkeys ":set pages-per-row "
 
 set font "Hack 8"
 set default-bg "#151515"
