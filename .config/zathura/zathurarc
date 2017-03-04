@@ -7,7 +7,7 @@ set page-padding 1
 set advance-pages-per-row true
 #map f feedkeys "133zz"
 #map f zoom specific 133
-map f feedkeys ":exec xdotool key 1 3 3 z z"<Return>
+map u feedkeys ":exec xdotool key 1 3 3 z z"<Return>
 set guioptions  ""
 set n-completion-items 25
 set window-title-basename true
