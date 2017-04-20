@@ -2,3 +2,5 @@
 !/.config
 !/.config/zathura
 !/.config/zathura/zathurarc
+!/.gitignore.d
+!/.gitignore.d/que-zathura
